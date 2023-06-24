@@ -1,0 +1,17 @@
+F:\Koodit\testiappi\bin\Debug\net6.0-windows\testiappi.exe
+F:\Koodit\testiappi\bin\Debug\net6.0-windows\testiappi.deps.json
+F:\Koodit\testiappi\bin\Debug\net6.0-windows\testiappi.runtimeconfig.json
+F:\Koodit\testiappi\bin\Debug\net6.0-windows\testiappi.dll
+F:\Koodit\testiappi\bin\Debug\net6.0-windows\testiappi.pdb
+F:\Koodit\testiappi\obj\Debug\net6.0-windows\testiappi.csproj.AssemblyReference.cache
+F:\Koodit\testiappi\obj\Debug\net6.0-windows\testiappi.Form1.resources
+F:\Koodit\testiappi\obj\Debug\net6.0-windows\testiappi.csproj.GenerateResource.cache
+F:\Koodit\testiappi\obj\Debug\net6.0-windows\testiappi.GeneratedMSBuildEditorConfig.editorconfig
+F:\Koodit\testiappi\obj\Debug\net6.0-windows\testiappi.AssemblyInfoInputs.cache
+F:\Koodit\testiappi\obj\Debug\net6.0-windows\testiappi.AssemblyInfo.cs
+F:\Koodit\testiappi\obj\Debug\net6.0-windows\testiappi.csproj.CoreCompileInputs.cache
+F:\Koodit\testiappi\obj\Debug\net6.0-windows\testiappi.dll
+F:\Koodit\testiappi\obj\Debug\net6.0-windows\refint\testiappi.dll
+F:\Koodit\testiappi\obj\Debug\net6.0-windows\testiappi.pdb
+F:\Koodit\testiappi\obj\Debug\net6.0-windows\testiappi.genruntimeconfig.cache
+F:\Koodit\testiappi\obj\Debug\net6.0-windows\ref\testiappi.dll
