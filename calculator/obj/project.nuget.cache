@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VTluNTtv60VE6FZzFYMGhhQZWZAk9REB5sy+G6h8ahRhlMdfz2ccEcwypa/UAxcDwlU7KVDqIGujGvresq/6Ag==",
+  "dgSpecHash": "6J/TRI0Vt+PU9qtcIOS9iCb0xft6UWKRUDtxtFTyMGVK4cqmTqjScAuyNFlVGpkJRQX9MnmJMGwaj8RTDSBhFg==",
   "success": true,
-  "projectFilePath": "F:\\Koodit\\calculator\\calculator.csproj",
+  "projectFilePath": "F:\\Koodit\\Calculator\\calculator\\calculator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -42,44 +42,29 @@
             SuspendLayout();
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyPressed);
             for (int button = 0; button < buttonNumber; button++) {
+                buttons[button] = new Button();
+                buttons[button].Name = this.names[button];
+                buttons[button].Size = new Size(buttonWidth, buttonHeight);
+                buttons[button].Font = new Font("Arial", 18);
+                buttons[button].TabIndex = 0;
+                buttons[button].Text = this.labels[button];
+                buttons[button].UseVisualStyleBackColor = true;
+                buttons[button].Click += Button_Click;
+                buttons[button].TabStop = false;
+                Controls.Add(buttons[button]);
+                
                 if (button < 11)
                 {
-                    buttons[button] = new Button();
                     buttons[button].Location = new Point(this.x + this.buttonWidth * (button % 3), this.y + this.buttonHeight * Convert.ToInt32(Math.Floor(Convert.ToDouble(button) / 3)));
-                    buttons[button].Name = this.names[button];
-                    buttons[button].Size = new Size(buttonWidth, buttonHeight);
-                    buttons[button].Font = new Font("Arial", 18);
-                    buttons[button].TabIndex = 0;
-                    buttons[button].Text = this.labels[button];
-                    buttons[button].UseVisualStyleBackColor = true;
-                    buttons[button].Click += Button_Click;
-                    Controls.Add(buttons[button]);
+
                 }
                 else if (button < buttonNumber - 2)
                 {
-                    buttons[button] = new Button();
-                    buttons[button].Location = new Point(20 + 4 * this.buttonWidth + this.buttonWidth * ((button-1) % 2), -5 * this.buttonHeight + this.y + this.buttonHeight * Convert.ToInt32(Math.Floor(Convert.ToDouble(button-1) / 2)));
-                    buttons[button].Name = this.names[button];
-                    buttons[button].Size = new Size(buttonWidth, buttonHeight);
-                    buttons[button].Font = new Font("Arial", 18);
-                    buttons[button].TabIndex = 0;
-                    buttons[button].Text = this.labels[button];
-                    buttons[button].UseVisualStyleBackColor = true;
-                    buttons[button].Click += Button_Click;
-                    Controls.Add(buttons[button]);
+                    buttons[button].Location = new Point(20 + 4 * this.buttonWidth + this.buttonWidth * ((button - 1) % 2), -5 * this.buttonHeight + this.y + this.buttonHeight * Convert.ToInt32(Math.Floor(Convert.ToDouble(button - 1) / 2)));
                 }
                 else
                 {
-                    buttons[button] = new Button();
                     buttons[button].Location = new Point(this.x + this.buttonWidth * (button % 3), -2 * this.buttonHeight + 20 + this.y + this.buttonHeight * Convert.ToInt32(Math.Floor(Convert.ToDouble(button) / 3)));
-                    buttons[button].Name = this.names[button];
-                    buttons[button].Size = new Size(buttonWidth, buttonHeight);
-                    buttons[button].Font = new Font("Arial", 18);
-                    buttons[button].TabIndex = 0;
-                    buttons[button].Text = this.labels[button];
-                    buttons[button].UseVisualStyleBackColor = true;
-                    buttons[button].Click += Button_Click;
-                    Controls.Add(buttons[button]);
                 }
             }
 

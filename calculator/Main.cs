@@ -219,6 +219,7 @@ namespace calculator
                     break;
                 case Keys.Enter:
                     Calculate();
+                    newCalc = true;
                     break;
                 case Keys.Back:
                     RemoveLast();

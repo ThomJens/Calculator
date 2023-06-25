@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Koodit\\calculator\\calculator.csproj": {}
+    "F:\\Koodit\\Calculator\\calculator\\calculator.csproj": {}
   },
   "projects": {
-    "F:\\Koodit\\calculator\\calculator.csproj": {
+    "F:\\Koodit\\Calculator\\calculator\\calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Koodit\\calculator\\calculator.csproj",
+        "projectUniqueName": "F:\\Koodit\\Calculator\\calculator\\calculator.csproj",
         "projectName": "calculator",
-        "projectPath": "F:\\Koodit\\calculator\\calculator.csproj",
+        "projectPath": "F:\\Koodit\\Calculator\\calculator\\calculator.csproj",
         "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
-        "outputPath": "F:\\Koodit\\calculator\\obj\\",
+        "outputPath": "F:\\Koodit\\Calculator\\calculator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
